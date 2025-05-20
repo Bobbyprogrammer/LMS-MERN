@@ -27,10 +27,14 @@ const Testimonial = () => {
               </div>
             </div>
             <div className="ml-5">
-              {[...Array(5)].map((_, index) => (
+              {[...Array(5)].map((_, i) => (
                 <img
-                  key={index}
-                  src={assets.star}
+                  key={i}
+                  src={
+                    i < Math.floor(item.rating)
+                      ? assets.star
+                      : assets.star_blank
+                  }
                   alt="star"
                   className="w-4 h-4 inline-block"
                 />

@@ -1,7 +1,3 @@
-import Companies from "./Companies";
-import CourseSection from "./CourseSection";
-import SearchBar from "./SearchBar";
-
 const Hero = () => {
   return (
     <div className="flex flex-col items-center justify-center w-full md:pt-36 pt-20 px-7 md:px-0 space-y-7 text-center bg-gradient-to-b from-pink-200/70">
@@ -18,10 +14,6 @@ const Hero = () => {
         Learn from top educators, dive into interactive lessons, and connect
         with a community that supports your success.
       </p>
-
-      <SearchBar />
-      <Companies />
-      <CourseSection />
     </div>
   );
 };

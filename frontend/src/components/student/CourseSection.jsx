@@ -5,7 +5,7 @@ import { AppContext } from "../../context/AppContext";
 const CourseSection = () => {
   const { courses } = useContext(AppContext);
   return (
-    <div className="py-16 px-8 md:px-40">
+    <div className="py-16 px-8 md:px-40 w-full mx-auto flex flex-col items-center justify-center">
       <h2 className="text-[#212121] text-xl font-semibold">
         Master skills with world-class instructors
       </h2>
@@ -14,8 +14,8 @@ const CourseSection = () => {
         business, and wellness — all built to help you succeed.
       </p>
 
-      <div className="my-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-5 items-center justify-center">
-        {courses.slice(0, 5).map((course, index) => (
+      <div className="my-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 items-center justify-center">
+        {courses.slice(0, 4).map((course, index) => (
           <CourseCard key={index} course={course} />
         ))}
       </div>

@@ -22,7 +22,7 @@ const Footer = () => {
   ];
 
   return (
-    <div className="px-6 md:px-16 lg:px-24 xl:px-32 bg-[#212121] text-white">
+    <div className="mt-12 px-6 md:px-16 lg:px-24 xl:px-32 bg-[#212121] text-white">
       <div className="flex flex-col md:flex-row items-start justify-between gap-10 py-10 border-b border-gray-500/30 text-white">
         <div>
           <Link to={"/"}>
