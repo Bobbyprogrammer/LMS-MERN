@@ -242,7 +242,7 @@ export const dummyCourses = [
             lectureId: "lecture1",
             lectureTitle: "What is JavaScript?",
             lectureDuration: 16,
-            lectureUrl: "https://youtu.be/CBWnBi-awSA",
+            lectureUrl: "https://youtu.be/Vg5N5CdbXko?si=ZKV7a7zsQ_BcFZpX",
             isPreviewFree: true,
             lectureOrder: 1,
           },
@@ -250,7 +250,8 @@ export const dummyCourses = [
             lectureId: "lecture2",
             lectureTitle: "Setting Up Your Environment",
             lectureDuration: 19,
-            lectureUrl: "https://youtu.be/4l87c2aeB4I",
+            lectureUrl: "https://youtu.be/iGfAnXyf_tM?si=XSyNuhG826MbSRMR",
+
             isPreviewFree: false,
             lectureOrder: 2,
           },
